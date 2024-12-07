@@ -1,0 +1,64 @@
+2024-12-07 07:09:54,452 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 07:09:54,452 - [33mPress CTRL+C to quit[0m
+2024-12-07 07:09:54,455 -  * Restarting with stat
+2024-12-07 07:09:54,862 -  * Debugger is active!
+2024-12-07 07:09:54,865 -  * Debugger PIN: 748-192-513
+2024-12-07 07:10:10,873 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 07:10:10,877 - [33mPress CTRL+C to quit[0m
+2024-12-07 07:10:10,878 -  * Restarting with stat
+2024-12-07 07:10:11,241 -  * Debugger is active!
+2024-12-07 07:10:11,244 -  * Debugger PIN: 748-192-513
+2024-12-07 07:17:12,663 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 07:17:12,663 - [33mPress CTRL+C to quit[0m
+2024-12-07 07:17:12,664 -  * Restarting with stat
+2024-12-07 07:17:13,012 -  * Debugger is active!
+2024-12-07 07:17:13,014 -  * Debugger PIN: 748-192-513
+2024-12-07 07:19:05,381 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 07:19:05,381 - [33mPress CTRL+C to quit[0m
+2024-12-07 07:19:05,382 -  * Restarting with stat
+2024-12-07 07:19:05,719 -  * Debugger is active!
+2024-12-07 07:19:05,722 -  * Debugger PIN: 748-192-513
+2024-12-07 07:35:47,449 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 07:35:47,449 - [33mPress CTRL+C to quit[0m
+2024-12-07 07:35:47,450 -  * Restarting with stat
+2024-12-07 07:35:47,821 -  * Debugger is active!
+2024-12-07 07:35:47,824 -  * Debugger PIN: 748-192-513
+2024-12-07 21:39:05,651 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-07 21:39:05,651 - [33mPress CTRL+C to quit[0m
+2024-12-07 21:39:05,653 -  * Restarting with stat
+2024-12-07 21:39:06,031 -  * Debugger is active!
+2024-12-07 21:39:06,039 -  * Debugger PIN: 748-192-513
+2024-12-08 00:28:22,187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-08 00:28:22,187 - [33mPress CTRL+C to quit[0m
+2024-12-08 00:28:22,189 -  * Restarting with stat
+2024-12-08 00:28:22,503 -  * Debugger is active!
+2024-12-08 00:28:22,511 -  * Debugger PIN: 748-192-513
+2024-12-08 00:28:28,491 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-12-08 00:28:28,491 - [33mPress CTRL+C to quit[0m
+2024-12-08 00:28:28,492 -  * Restarting with stat
+2024-12-08 00:28:28,805 -  * Debugger is active!
+2024-12-08 00:28:28,809 -  * Debugger PIN: 748-192-513

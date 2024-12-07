@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رفع فيرموير الطابعة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .upload-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .upload-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .file-input-wrapper {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        #fileInput {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+        .file-label {
+            display: block;
+            background: #4a90e2;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            transition: background 0.3s ease;
+            font-weight: 500;
+        }
+        .file-label:hover {
+            background: #357abd;
+        }
+        #fileName {
+            color: #666;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .submit-btn {
+            background: #2ecc71;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 700;
+        }
+        .submit-btn:hover {
+            background: #27ae60;
+            transform: scale(1.05);
+        }
+        .icon {
+            margin-right: 10px;
+        }
+        @media (max-width: 600px) {
+            .upload-container {
+                padding: 20px;
+                margin: 0;
+                width: 100%;
+            }
+        }
+    </style>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="upload-container">
+        <h2>
+            <i data-feather="upload-cloud" class="icon"></i>
+            رفع فيرموير الطابعة
+        </h2>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="file-input-wrapper">
+                <input type="file" id="fileInput" name="file" accept=".hex" required>
+                <label for="fileInput" class="file-label">
+                    <i data-feather="file" class="icon"></i>
+                    اختيار ملف الفيرموير
+                </label>
+                <div id="fileName"></div>
+            </div>
+            <button type="submit" class="submit-btn">
+                <i data-feather="send" class="icon"></i>
+                رفع الفيرموير
+            </button>
+        </form>
+    </div>
+
+    <script>
+        // تهيئة الأيقونات
+        feather.replace();
+
+        const fileInput = document.getElementById('fileInput');
+        const fileName = document.getElementById('fileName');
+
+        fileInput.addEventListener('change', function() {
+            if (this.files && this.files.length > 0) {
+                fileName.textContent = `الملف المحدد: ${this.files[0].name}`;
+            }
+        });
+    </script>
+</body>
+</html>
